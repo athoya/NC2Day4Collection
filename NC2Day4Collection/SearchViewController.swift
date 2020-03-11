@@ -73,7 +73,6 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
         
         // Create filter based on keyword
         // let filtered = arr.filter { $0.contains("lo") }
-
     }
     
     @IBAction func backToMain(_ sender: UIButton) {
@@ -87,15 +86,4 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
             previousVC.descMusic = songDesc
         }
     }
-    /*
-     
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

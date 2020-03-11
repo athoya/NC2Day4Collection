@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E6BCCAE62417F8ED003A7573 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BCCAE52417F8ED003A7573 /* SearchViewController.swift */; };
 		E6BCCAF124188D48003A7573 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BCCAF024188D48003A7573 /* DetailViewController.swift */; };
-		E6BCCAF32418929E003A7573 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BCCAF22418929E003A7573 /* MusicLibrary.swift */; };
 		F439F2FF24172F5000E9FE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439F2FE24172F5000E9FE0B /* AppDelegate.swift */; };
 		F439F30124172F5000E9FE0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439F30024172F5000E9FE0B /* SceneDelegate.swift */; };
 		F439F30324172F5000E9FE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439F30224172F5000E9FE0B /* ViewController.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		E6BCCAE52417F8ED003A7573 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E6BCCAF024188D48003A7573 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		E6BCCAF22418929E003A7573 /* MusicLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
 		F439F2FB24172F5000E9FE0B /* NC2Day4Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC2Day4Collection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F439F2FE24172F5000E9FE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F439F30024172F5000E9FE0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,12 +64,11 @@
 				F439F30024172F5000E9FE0B /* SceneDelegate.swift */,
 				F439F30224172F5000E9FE0B /* ViewController.swift */,
 				E6BCCAE52417F8ED003A7573 /* SearchViewController.swift */,
+				E6BCCAF024188D48003A7573 /* DetailViewController.swift */,
 				F439F30424172F5000E9FE0B /* Main.storyboard */,
 				F439F30724172F5100E9FE0B /* Assets.xcassets */,
 				F439F30924172F5100E9FE0B /* LaunchScreen.storyboard */,
 				F439F30C24172F5100E9FE0B /* Info.plist */,
-				E6BCCAF024188D48003A7573 /* DetailViewController.swift */,
-				E6BCCAF22418929E003A7573 /* MusicLibrary.swift */,
 			);
 			path = NC2Day4Collection;
 			sourceTree = "<group>";
@@ -150,7 +147,6 @@
 				F439F30324172F5000E9FE0B /* ViewController.swift in Sources */,
 				F439F2FF24172F5000E9FE0B /* AppDelegate.swift in Sources */,
 				E6BCCAF124188D48003A7573 /* DetailViewController.swift in Sources */,
-				E6BCCAF32418929E003A7573 /* MusicLibrary.swift in Sources */,
 				E6BCCAE62417F8ED003A7573 /* SearchViewController.swift in Sources */,
 				F439F30124172F5000E9FE0B /* SceneDelegate.swift in Sources */,
 			);
